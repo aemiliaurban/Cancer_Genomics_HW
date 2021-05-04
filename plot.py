@@ -9,7 +9,7 @@ i, j = 1, 1
 positions = []
 logs = []
 
-while wt.iloc[i, 0] or tumor.iloc[j, 0]:
+while i <  len(wt.index) or j < len(tumor.index):
     if wt.iloc[i, 2] == 0 or tumor.iloc[j, 2] == 0:
         i += 1
         j += 1
@@ -23,7 +23,7 @@ while wt.iloc[i, 0] or tumor.iloc[j, 0]:
         i += 1
         j +=1
         
-plt.scatter(positions, logs)
+plt.scatter(positions, logs, s=0.2)
 plt.title("Read depth scatter plot")
 plt.xlabel("Logarithmic values of depth coverage")
 plt.ylabel(("Position in genome"))
