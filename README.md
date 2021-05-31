@@ -32,4 +32,5 @@ awk '{ if ($2 >= 20000000 && $2 <= 40000000) print $0 }' tumor.x.coverage > tumo
 9. Run plot.py
 
 ## Homework 2
+Fetch data here: https://gear.embl.de/data/.slides/deletion.tsv.gz
 Run the Machine_Learning.py file
