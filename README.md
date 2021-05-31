@@ -1,5 +1,5 @@
 # Cancer_Genomics_HW
-Homework
+##Homework 1
 
 1. Download data from https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.13/ in .fasta format and homework data from https://gear.embl.de/data/.exercise/
 2. Index the file
@@ -30,3 +30,6 @@ awk '{ if ($2 >= 20000000 && $2 <= 40000000) print $0 }' tumor.x.coverage > tumo
 ```
 8. Repeat the steps for the WT files
 9. Run plot.py
+
+##Homework 2
+Run the Machine_Learning.py file
